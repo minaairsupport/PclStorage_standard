@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PCLStorage\AwaitExtensions.cs" Link="AwaitExtensions.cs" />
+    <Compile Include="..\PCLStorage\Exceptions\PCLStorageExceptions.cs" Link="Exceptions\PCLStorageExceptions.cs" />
+    <Compile Include="..\PCLStorage\FileSystem.cs" Link="FileSystem.cs" />
+    <Compile Include="..\PCLStorage\PortablePath.cs" Link="PortablePath.cs" />
+    <Compile Include="..\PCLStorage\Requires.cs" Link="Requires.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCLStorage.Abstractions\PCLStorage.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PCLStorage\Exceptions\PCLStorageExceptions.cs" Link="PCLStorageExceptions.cs" />
+    <Compile Include="..\PCLStorage\FileSystem.cs" Link="FileSystem.cs" />
+    <Compile Include="..\PCLStorage\PortablePath.cs" Link="PortablePath.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCLStorage.Abstractions.NoSL\PCLStorage.Abstractions.NoSL.csproj" />
+  </ItemGroup>
+</Project>

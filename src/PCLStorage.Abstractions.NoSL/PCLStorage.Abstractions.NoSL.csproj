@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PCLStorage.Abstractions\ExistenceCheckResult.cs" Link="ExistenceCheckResult.cs" />
+    <Compile Include="..\PCLStorage.Abstractions\FileExtensions.cs" Link="FileExtensions.cs" />
+    <Compile Include="..\PCLStorage.Abstractions\IFile.cs" Link="IFile.cs" />
+    <Compile Include="..\PCLStorage.Abstractions\IFileSystem.cs" Link="IFileSystem.cs" />
+    <Compile Include="..\PCLStorage.Abstractions\IFolder.cs" Link="IFolder.cs" />
+    <Compile Include="..\PCLStorage.Abstractions\NameCollisionOption.cs" Link="NameCollisionOption.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <Compile Include="..\..\src\PCLStorage\AwaitExtensions.cs" Link="AwaitExtensions.cs" />
+      <Compile Include="..\PCLStorage.Test\FileSystemTests.cs" Link="FileSystemTests.cs" />
+      <Compile Include="..\PCLStorage.Test\FileTests.cs" Link="FileTests.cs" />
+      <Compile Include="..\PCLStorage.Test\FolderTests.cs" Link="FolderTests.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
+      <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
+      <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
+      <PackageReference Include="PCLTesting" Version="0.2.2" />
+    </ItemGroup>
+</Project>
