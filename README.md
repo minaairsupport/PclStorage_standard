@@ -1,3 +1,6 @@
+#Note its the same lib but support Standard , soon will publish to Nuget
+
+
 # PCL Storage
 
 ![PCL Storage](https://dsplaisted.blob.core.windows.net/oss/pickles_64.png)
